@@ -69,8 +69,6 @@ public class ThirdActivity extends AppCompatActivity {
             dbHelper.updateNotes(title, date, content, username);
         }
 
-        // comment
-
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
